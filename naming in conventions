@@ -1,0 +1,7 @@
+var name=prompt("What is your name?");
+var nameSliced=name.slice(0,1);
+var result=nameSliced.toUpperCase();
+var remainName=name.slice(1,name.length);
+remainName=remainName.toLowerCase();
+alert("Hello, "+ result + remainName);
+
