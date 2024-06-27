@@ -5,3 +5,6 @@ alert("You have written,"+ tweetCount+" characters and have, "+ (140-tweetCount)
 //Or use:
 var tweet=prompt("Enter Your tweet:");
 alert("You have written,"+ tweet.length +" characters and have, "+ (140-tweet.length)+ " characters remaining");
+
+//using slicing:
+alert(prompt("Enter your tweet:").slice(0,140));
