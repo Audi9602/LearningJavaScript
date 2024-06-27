@@ -1,3 +1,7 @@
 var tweet=prompt("Enter Your tweet:");
 var tweetCount= tweet.length;
 alert("You have written,"+ tweetCount+" characters and have, "+ (140-tweetCount)+ " characters remaining");
+
+//Or use:
+var tweet=prompt("Enter Your tweet:");
+alert("You have written,"+ tweet.length +" characters and have, "+ (140-tweet.length)+ " characters remaining");
