@@ -1,0 +1,12 @@
+function lifeInWeeks(age){
+    yearsRemain=90-age;
+    daysLeft=yearsRemain*365;
+    weeksLeft=yearsRemain*52;
+    monthsLeft=yearsRemain*12;
+
+    console.log("You have "+daysLeft+" days, "+weeksLeft+" weeks and "+monthsLeft+" months left.")
+}
+
+lifeInWeeks(45);
+
+//inspired by Tim Burton article | Angela Yu course
