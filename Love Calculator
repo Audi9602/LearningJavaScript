@@ -2,4 +2,10 @@ var user1=prompt("Your Name:");
 var user2=prompt("Your Crush's Name:");
 var loveScore=Math.random()*100;
 loveScore=Math.floor(loveScore)+1;
+
+if (loveScore>50){
+    alert("Congrats! Your LoveScore is: "+loveScore+"%"+" Way to go just like the way back home!");
+} else{
+    alert("So your LoveScore looks like, "+loveScore+"%"+" That's really cool by the way.. literally cold!");
+}
 console.log(loveScore);
