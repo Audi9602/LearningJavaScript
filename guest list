@@ -1,0 +1,7 @@
+var guestList=["audi","addie","dice","aune","wolfed","absdie"];
+var guestName=prompt("What is your name?");
+if (guestList.includes(guestName)){//returns bool val
+    alert( "We were waiting for you..");
+} else {
+    alert("Maybe next time?");
+}
