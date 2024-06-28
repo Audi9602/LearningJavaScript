@@ -1,0 +1,10 @@
+function isLeapYear(year){
+    if ((0===year%4) && (0!=year%100) || (0===year%400)){
+        return "leap year";
+    } else{
+        return "Not leap year";
+    }
+}
+//checking
+isLeapYear(1700);
+
