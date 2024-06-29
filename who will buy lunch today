@@ -1,0 +1,9 @@
+function whoPays(names) {
+    var names=["Addie","Ange","Jake","Eric","Jacob","Taylor"];
+    var numPeeps = names.length;
+    var randomNum = Math.floor(Math.random() * numPeeps);
+    var pickPay = names[randomNum];
+    
+    return (pickPay + " will buy lunch today!");
+}
+whoPays();
