@@ -6,3 +6,4 @@ function BellBoy (name,age,workPermit,languages) { //constructor in javascript
 }
 
 var bellBoy1 =new BellBoy ("timmy",21,"yes",["eng","span","turk"]);
+console.log(bellBoy1.name);
