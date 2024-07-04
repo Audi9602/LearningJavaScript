@@ -1,0 +1,8 @@
+function BellBoy (name,age,workPermit,languages) { //constructor in javascript
+    this.name=name;
+    this.age=age;
+    this.workPermit=workPermit;
+    this.languages=languages;
+}
+
+var bellBoy1 =new BellBoy ("timmy",21,"yes",["eng","span","turk"]);
