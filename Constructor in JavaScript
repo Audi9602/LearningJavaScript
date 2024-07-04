@@ -7,3 +7,19 @@ function BellBoy (name,age,workPermit,languages) { //constructor in javascript
 
 var bellBoy1 =new BellBoy ("timmy",21,"yes",["eng","span","turk"]);
 console.log(bellBoy1.name);
+
+function BellBoy(name,age,workPermit,language){
+    this.name=name;
+    this.age=age;
+    this.workPermit=workPermit;
+    this.language=language;
+
+    this.moveSuitcase=function (){
+        alert("moving in progress");
+    }
+}
+undefined
+var bellBoy1= new BellBoy("Andie",21,"Yes",["Eng","Turk","Kor"]);
+undefined
+bellBoy1.moveSuitcase();
+undefined
